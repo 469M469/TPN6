@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: white;
+}
+.ofertas-h{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.178);
+    position: absolute;
+    top: -100vh;
+    transition: all .3s ease-in-out;
+}
+
+.spamm:hover :first-child{
+    top: 0;
+    transition: all 1s ease-in-out;
+}
+.ofertas{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+    z-index: 99999;
+}
+.oferta{
+    width: 20%;
+    margin: 5%;
+}
+.oferta p{
+    margin: 2rem 0;
+}   
+.oferta h4{
+    font-size: 1.3rem;
+}
+.oferta a{
+    color: black;
+    padding: .2rem;
+}
+.oferta a:hover{
+    background-color: black;
+    color: white;
+}
+.spam{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.semi_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    height: 40px;
+    background-color: white;
+}
+.logo img{
+    width: 50px;
+    margin: 2rem;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding: .5rem;
+    margin: 0 1.5rem;
+}
+.menu h2{
+    font-size: 19px;
+}
+.info{
+    border-top: 1px solid rgb(206, 206, 206);
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    display: none;
+    opacity: 0;
+    background-color: white;
+    z-index: 99999;
+}
+.mujer:hover{
+    border-bottom: 3px solid black;
+}
+.mujer:hover :last-child{
+    display: flex;
+    opacity: 1;
+}
+.info:hover{
+    display: flex;
+    opacity: 1; 
+}
+.untercio{
+    width: 33%;
+    height: auto;
+    border-right: 1px solid rgb(206, 206, 206);
+    border-bottom: none;
+    align-items: center;
+    display: block;
+}
+.info ul{
+    display: block;
+    text-align: start;
+}
+.untercio li{
+    display: flex;
+}
+.untercio h2{
+    margin: 2rem 0;
+    font-weight: 1000;
+    text-align: center;
+    font-size: .9rem;
+}
+.as{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    text-align: start;
+    font-size: 13px;
+    transition: all .3s ease;
+}
+.as:hover{
+    text-decoration: underline;
+}
+.peques{
+    margin:  0 auto 2rem auto;
+    width: 150px;
+}
+.dostercio{
+    width: 66%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.dostercio h2{
+    margin-top: 2rem;
+    font-size: .9rem;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono{
+    width: 25px;
+    margin: 0 15px;
+}
+.calzado ul{
+    display: block;
+}
+main{
+    display: flex;
+}
+.general{
+    width: 75%;
+    margin: 100px auto;
+}
+.titulo{
+    margin: 50px;
+}
+h1{
+    font-size: 3rem;
+}
+h4{
+    font-size: .9rem;
+}
+header ul, .cuadro, header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: auto;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+}
+header li{
+    list-style: none;
+    margin: 10px .5rem;
+    padding: .5rem 0;
+}
+header span{
+    font-weight: 900;
+    border-bottom: 5px solid black;
+}
+.cuadro{
+    padding: 10px;
+    border: 2px solid black;
+}
+.cuadro img{
+    width: 30px;
+    margin-left: 10px;
+}
+.cartas{
+    margin-top: 200px;
+}
