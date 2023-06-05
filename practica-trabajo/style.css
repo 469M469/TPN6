@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     background-color: white;
 }
-.ofertas-h{
+
+.ofertas-h {
     height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.178);
@@ -14,36 +16,43 @@ html{
     transition: all .3s ease-in-out;
 }
 
-.spamm:hover :first-child{
+.spamm:hover :first-child {
     top: 0;
     transition: all 1s ease-in-out;
 }
-.ofertas{
+
+.ofertas {
     display: flex;
     align-items: start;
     justify-content: center;
     background-color: rgb(247, 247, 247);
     z-index: 99999;
 }
-.oferta{
+
+.oferta {
     width: 20%;
     margin: 5%;
 }
-.oferta p{
+
+.oferta p {
     margin: 2rem 0;
-}   
-.oferta h4{
+}
+
+.oferta h4 {
     font-size: 1.3rem;
 }
-.oferta a{
+
+.oferta a {
     color: black;
     padding: .2rem;
 }
-.oferta a:hover{
+
+.oferta a:hover {
     background-color: black;
     color: white;
 }
-.spam{
+
+.spam {
     width: 100%;
     height: 30px;
     background-color: black;
@@ -53,7 +62,8 @@ html{
     justify-content: center;
     align-items: center;
 }
-.semi_header{
+
+.semi_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,28 +71,34 @@ html{
     height: 40px;
     background-color: white;
 }
-.logo img{
+
+.logo img {
     width: 50px;
     margin: 2rem;
 }
-.menu{
+
+.menu {
     display: flex;
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     align-items: center;
 }
-.menu li{
+
+.menu li {
     display: flex;
     list-style: none;
     text-align: center;
     padding: .5rem;
     margin: 0 1.5rem;
 }
-.menu h2{
+
+.menu h2 {
     font-size: 19px;
 }
-.info{
+
+.info {
     border-top: 1px solid rgb(206, 206, 206);
     width: 100%;
     position: absolute;
@@ -94,18 +110,22 @@ html{
     background-color: white;
     z-index: 99999;
 }
-.mujer:hover{
+
+.mujer:hover {
     border-bottom: 3px solid black;
 }
-.mujer:hover :last-child{
+
+.mujer:hover #doble {
     display: flex;
     opacity: 1;
 }
-.info:hover{
+
+.info:hover {
     display: flex;
-    opacity: 1; 
+    opacity: 1;
 }
-.untercio{
+
+.untercio {
     width: 33%;
     height: auto;
     border-right: 1px solid rgb(206, 206, 206);
@@ -113,20 +133,24 @@ html{
     align-items: center;
     display: block;
 }
-.info ul{
+
+.info ul {
     display: block;
     text-align: start;
 }
-.untercio li{
+
+.untercio li {
     display: flex;
 }
-.untercio h2{
+
+.untercio h2 {
     margin: 2rem 0;
     font-weight: 1000;
     text-align: center;
     font-size: .9rem;
 }
-.as{
+
+.as {
     text-align: center;
     text-decoration: none;
     color: black;
@@ -135,80 +159,207 @@ html{
     font-size: 13px;
     transition: all .3s ease;
 }
-.as:hover{
+
+.as:hover {
     text-decoration: underline;
 }
-.peques{
-    margin:  0 auto 2rem auto;
+
+.peques {
+    margin: 0 auto 2rem auto;
     width: 150px;
 }
-.dostercio{
+
+.dostercio {
     width: 66%;
     height: auto;
     display: flex;
     align-items: start;
     justify-content: space-around;
 }
-.dostercio h2{
+
+.dostercio h2 {
     margin-top: 2rem;
     font-size: .9rem;
 }
-.iconos{
+
+.iconos {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icono{
+
+.icono {
     width: 25px;
     margin: 0 15px;
 }
-.calzado ul{
-    display: block;
-}
-main{
+
+main {
     display: flex;
 }
-.general{
+
+.general {
     width: 75%;
     margin: 100px auto;
 }
-.titulo{
+
+.titulo {
     margin: 50px;
 }
-h1{
+
+h1 {
     font-size: 3rem;
 }
-h4{
+
+h4 {
     font-size: .9rem;
 }
-header ul, .cuadro, header{
+
+header ul,
+.cuadro,
+header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header{
+
+header {
     height: auto;
     justify-content: space-between;
     position: sticky;
-    top:0;
+    top: 0;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    z-index: 999;
+    background-color: white;
 }
-header li{
+
+header li {
     list-style: none;
     margin: 10px .5rem;
     padding: .5rem 0;
 }
-header span{
+
+header span {
     font-weight: 900;
     border-bottom: 5px solid black;
 }
-.cuadro{
+
+.cuadro {
     padding: 10px;
     border: 2px solid black;
 }
-.cuadro img{
+
+.cuadro img {
     width: 30px;
     margin-left: 10px;
 }
-.cartas{
-    margin-top: 200px;
+
+.cartas {
+    margin-top: 150px;
+}
+
+.cartas .conteiner{
+    display: flex;
+}
+
+.carta {
+    width: 25%;
+    height: auto;   
+    padding: 2px;
+}
+
+.carta img {
+    display: none;
+    opacity: 0;
+    width: 100%;
+}
+
+.carta:hover #uno {
+    display: flex;
+    opacity: 1;
+    width: 75px;
+    border-bottom: 2px solid black;
+}
+
+.carta:hover #dos {
+    display: flex;
+    opacity: 1;
+    width: 75px;
+    border-bottom: 2px solid white;
+}
+
+.mini_imgs #dos:hover {
+    border-bottom: 2px solid black;
+}
+
+/* .mini_imgs #dos:hover #flex{
+    display: none;
+    opacity: 0;
+}
+.mini_imgs #dos:hover #dosg{
+    display: flex;
+    opacity: 1;
+} */
+
+.carta:hover #tres {
+    display: flex;
+    opacity: 1;
+    width: 75px;
+    border-bottom: 2px solid white;
+}
+
+.mini_imgs #tres:hover {
+    border-bottom: 2px solid black;
+}
+
+.carta:hover .precio {
+    top: 90%;
+}
+
+.carta:hover {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.precio {
+    position: absolute;
+    top: 94%;
+    left: 1rem;
+    background-color: white;
+    padding: 0 .3rem;
+    color: black;
+    transition: all .3s ease;
+}
+
+.mini_imgs {
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs {
+    position: relative;
+}
+
+.text {
+    width: 95%;
+    margin: auto;
+}
+
+.text h4 {
+    margin: .5rem 0;
+}
+
+#flex {
+    display: flex;
+    opacity: 1;
+}
+
+.imgs:hover #flex {
+    display: none;
+    opacity: 0;
+}
+
+.imgs:hover #none {
+    display: flex;
+    opacity: 1;
 }
