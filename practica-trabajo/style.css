@@ -111,11 +111,15 @@ html {
     z-index: 99999;
 }
 
-.mujer:hover {
+.mujer, .hombre, .ninos, .deporte{
+    border-bottom: 3px solid white;
+}
+
+.mujer:hover, .hombre:hover, .ninos:hover, .deporte:hover{
     border-bottom: 3px solid black;
 }
 
-.mujer:hover #doble {
+.mujer:hover #doble, .hombre:hover #h, .ninos:hover #n, .deporte:hover #d{
     display: flex;
     opacity: 1;
 }
